@@ -37,9 +37,12 @@ const HeroSection = () => {
 
         {/* Main Headline */}
         <div className="text-center max-w-2xl mx-auto mb-8">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6 leading-tight">
-            We Help You <span className="text-gradient-primary">Recover Your Crypto</span> — Safely, Legally, and Without Upfront Fees.
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-4 leading-tight">
+            We Help You <span className="text-gradient-primary">Recover Your Crypto!</span>
           </h1>
+          <p className="text-xl md:text-2xl font-semibold text-destructive">
+            Safely | Legally | Without Upfront Fees
+          </p>
         </div>
 
         {/* Trust Badges */}
