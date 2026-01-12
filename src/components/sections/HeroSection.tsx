@@ -41,7 +41,7 @@ const HeroSection = () => {
             We Help You <span className="text-gradient-primary">Recover Your Crypto!</span>
           </h1>
           <p className="text-xl md:text-2xl font-semibold text-destructive">
-            Safely | Legally | Without Upfront Fees
+            Safely | Legally | With Consent
           </p>
         </div>
 
