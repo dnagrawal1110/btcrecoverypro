@@ -1,6 +1,7 @@
-import { Shield, CheckCircle } from "lucide-react";
+import { CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-crypto.jpg";
+import logoImage from "@/assets/logo.png";
 
 const HeroSection = () => {
   return (
@@ -25,9 +26,11 @@ const HeroSection = () => {
         {/* Logo */}
         <div className="flex justify-center mb-8">
           <div className="flex items-center gap-3">
-            <div className="w-16 h-16 rounded-full bg-primary/20 border-2 border-primary flex items-center justify-center">
-              <Shield className="w-8 h-8 text-primary" />
-            </div>
+            <img 
+              src={logoImage} 
+              alt="BTC Recovery Pro Logo" 
+              className="w-16 h-16 object-contain"
+            />
             <div className="text-center">
               <span className="text-2xl font-display font-bold text-primary">BTC</span>
               <span className="text-2xl font-display font-bold text-foreground">RECOVERYPRO</span>
