@@ -13,10 +13,12 @@ const StickyCTA = () => {
             HURRY! Recover Your Crypto — Safely
           </p>
         </div>
-        <Button variant="sticky" size="default" className="flex-shrink-0">
-          Get Assessment Now
-          <ArrowRight className="w-4 h-4 ml-1" />
-        </Button>
+        <a href="https://forms.google.com/YOUR_FORM_ID" target="_blank" rel="noopener noreferrer">
+          <Button variant="sticky" size="default" className="flex-shrink-0">
+            Get Assessment Now
+            <ArrowRight className="w-4 h-4 ml-1" />
+          </Button>
+        </a>
       </div>
     </div>
   );

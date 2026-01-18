@@ -5,6 +5,7 @@ import ServicesSection from "@/components/sections/ServicesSection";
 import ProcessSection from "@/components/sections/ProcessSection";
 import WhyChooseUsSection from "@/components/sections/WhyChooseUsSection";
 import AboutSection from "@/components/sections/AboutSection";
+import TrustedNetworkSection from "@/components/sections/TrustedNetworkSection";
 import LegalSection from "@/components/sections/LegalSection";
 import FinalCTASection from "@/components/sections/FinalCTASection";
 import StickyCTA from "@/components/StickyCTA";
@@ -20,6 +21,7 @@ const Index = () => {
       <ProcessSection />
       <WhyChooseUsSection />
       <AboutSection />
+      <TrustedNetworkSection />
       <LegalSection />
       <FinalCTASection />
       <Footer />

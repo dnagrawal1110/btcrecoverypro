@@ -45,9 +45,11 @@ const ServicesSection = () => {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-4">
-          <Button variant="cta" size="lg" className="w-full max-w-sm mb-8">
-            Get a Free Recovery Assessment Now
-          </Button>
+          <a href="https://forms.google.com/YOUR_FORM_ID" target="_blank" rel="noopener noreferrer" className="inline-block w-full max-w-sm mb-8">
+            <Button variant="cta" size="lg" className="w-full">
+              Get a Free Recovery Assessment Now
+            </Button>
+          </a>
         </div>
 
         <h2 className="text-3xl md:text-4xl font-display font-bold text-center mb-2">
@@ -94,9 +96,11 @@ const ServicesSection = () => {
 
         {/* CTA */}
         <div className="flex justify-center mt-10">
-          <Button variant="cta" size="lg" className="w-full max-w-sm">
-            Find the Right Recovery Option
-          </Button>
+          <a href="https://forms.google.com/YOUR_FORM_ID" target="_blank" rel="noopener noreferrer" className="w-full max-w-sm">
+            <Button variant="cta" size="lg" className="w-full">
+              Find the Right Recovery Option
+            </Button>
+          </a>
         </div>
       </div>
     </section>

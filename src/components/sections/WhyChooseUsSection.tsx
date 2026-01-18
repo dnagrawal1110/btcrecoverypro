@@ -59,9 +59,11 @@ const WhyChooseUsSection = () => {
 
         {/* CTA */}
         <div className="flex justify-center">
-          <Button variant="cta" size="lg" className="w-full max-w-sm">
-            Talk to a Recovery Expert
-          </Button>
+          <a href="https://forms.google.com/YOUR_FORM_ID" target="_blank" rel="noopener noreferrer" className="w-full max-w-sm">
+            <Button variant="cta" size="lg" className="w-full">
+              Talk to a Recovery Expert
+            </Button>
+          </a>
         </div>
       </div>
     </section>

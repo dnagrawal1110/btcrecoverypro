@@ -84,9 +84,11 @@ const IsThisYouSection = () => {
 
         {/* CTA */}
         <div className="flex justify-center">
-          <Button variant="cta" size="lg" className="w-full max-w-sm">
-            Start Free Recovery Assessment
-          </Button>
+          <a href="https://forms.google.com/YOUR_FORM_ID" target="_blank" rel="noopener noreferrer" className="w-full max-w-sm">
+            <Button variant="cta" size="lg" className="w-full">
+              Start Free Recovery Assessment
+            </Button>
+          </a>
         </div>
       </div>
     </section>

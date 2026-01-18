@@ -48,6 +48,27 @@ const HeroSection = () => {
           </p>
         </div>
 
+        {/* Video Section - Moved below subheading */}
+        <div className="max-w-md mx-auto mb-10">
+          <div className="relative rounded-2xl overflow-hidden border-2 border-primary/30 bg-card">
+            {/* Video Placeholder - Replace with actual video embed */}
+            <div className="aspect-video bg-gradient-to-br from-secondary to-card flex items-center justify-center relative">
+              <div className="absolute inset-0 bg-[url('/placeholder.svg')] bg-cover bg-center opacity-20" />
+              <div className="relative z-10 flex flex-col items-center gap-4">
+                <div className="w-16 h-16 rounded-full bg-primary/20 border-2 border-primary flex items-center justify-center cursor-pointer hover:bg-primary/30 transition-colors">
+                  <Play className="w-8 h-8 text-primary fill-primary" />
+                </div>
+                <p className="text-foreground font-medium text-center px-4">
+                  Watch: Gopal Introduces Recovery Services
+                </p>
+              </div>
+            </div>
+          </div>
+          <p className="text-center text-sm text-muted-foreground mt-3">
+            See how we've helped 100+ clients recover their crypto
+          </p>
+        </div>
+
         {/* Trust Badges */}
         <div className="grid grid-cols-2 gap-3 max-w-md mx-auto mb-8">
           {[
@@ -81,35 +102,17 @@ const HeroSection = () => {
           <p className="text-sm text-muted-foreground mb-2">
             Worth $150/hour – <span className="text-primary font-bold">FREE</span>
           </p>
-          <Button variant="cta" size="xl" className="w-full max-w-sm animate-bounce-subtle">
-            Get a Free Recovery Assessment Now
-          </Button>
+          <a href="https://forms.google.com/YOUR_FORM_ID" target="_blank" rel="noopener noreferrer" className="w-full max-w-sm">
+            <Button variant="cta" size="xl" className="w-full animate-bounce-subtle">
+              Get a Free Recovery Assessment Now
+            </Button>
+          </a>
         </div>
 
-        <p className="text-center text-sm text-muted-foreground mb-10">
+        <p className="text-center text-sm text-muted-foreground">
           No obligation • Ownership verification required
         </p>
 
-        {/* Video Section */}
-        <div className="max-w-md mx-auto">
-          <div className="relative rounded-2xl overflow-hidden border-2 border-primary/30 bg-card">
-            {/* Video Placeholder - Replace with actual video embed */}
-            <div className="aspect-video bg-gradient-to-br from-secondary to-card flex items-center justify-center relative">
-              <div className="absolute inset-0 bg-[url('/placeholder.svg')] bg-cover bg-center opacity-20" />
-              <div className="relative z-10 flex flex-col items-center gap-4">
-                <div className="w-16 h-16 rounded-full bg-primary/20 border-2 border-primary flex items-center justify-center cursor-pointer hover:bg-primary/30 transition-colors">
-                  <Play className="w-8 h-8 text-primary fill-primary" />
-                </div>
-                <p className="text-foreground font-medium text-center px-4">
-                  Watch: Gopal Bhai Introduces Recovery Services
-                </p>
-              </div>
-            </div>
-          </div>
-          <p className="text-center text-sm text-muted-foreground mt-3">
-            See how we've helped 100+ clients recover their crypto
-          </p>
-        </div>
       </div>
     </section>
   );
