@@ -81,7 +81,7 @@ const ServicesSection = () => {
 
               {/* Content */}
               <div className="p-6 text-center">
-                <h3 className="text-xl font-display font-semibold text-primary mb-3">
+                <h3 className="text-xl font-display font-semibold text-destructive mb-3">
                   {service.title}
                 </h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">

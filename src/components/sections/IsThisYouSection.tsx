@@ -65,7 +65,7 @@ const IsThisYouSection = () => {
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                 <p className="text-foreground">
                   {problem.text}{" "}
-                  <span className="text-primary font-medium">{problem.highlight}</span>{" "}
+                  <span className="text-destructive font-medium">{problem.highlight}</span>{" "}
                   {problem.rest}
                 </p>
               </div>
@@ -76,9 +76,9 @@ const IsThisYouSection = () => {
         {/* Closing Statement */}
         <div className="text-center mt-8 mb-8 max-w-lg mx-auto">
           <p className="text-foreground">
-            You're <span className="text-primary font-semibold">Not Alone</span>.{" "}
+            You're <span className="text-destructive font-semibold">Not Alone</span>.{" "}
             <span className="underline">Every Week, We Help People Just Like You</span>{" "}
-            <span className="text-primary font-semibold">Recover Their Lost Crypto</span> — And Their Peace Of Mind.
+            <span className="text-destructive font-semibold">Recover Their Lost Crypto</span> — And Their Peace Of Mind.
           </p>
         </div>
 
