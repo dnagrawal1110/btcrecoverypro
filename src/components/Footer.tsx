@@ -1,4 +1,4 @@
-import { Shield } from "lucide-react";
+import logoImage from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -7,9 +7,11 @@ const Footer = () => {
         {/* Logo */}
         <div className="flex justify-center mb-6">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-primary/20 border border-primary flex items-center justify-center">
-              <Shield className="w-5 h-5 text-primary" />
-            </div>
+            <img 
+              src={logoImage} 
+              alt="BTC Recovery Pro Logo" 
+              className="w-10 h-10 object-contain"
+            />
             <div>
               <span className="text-lg font-display font-bold text-primary">BTC</span>
               <span className="text-lg font-display font-bold text-foreground">RECOVERYPRO</span>
