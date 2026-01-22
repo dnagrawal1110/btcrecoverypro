@@ -42,7 +42,7 @@ const AboutSection = () => {
           </p>
 
           {/* CTA */}
-          <a href="https://forms.google.com/YOUR_FORM_ID" target="_blank" rel="noopener noreferrer" className="block w-full max-w-sm mx-auto">
+          <a href="https://forms.gle/UfjdyC4F53u6Yx5V8" target="_blank" rel="noopener noreferrer" className="block w-full max-w-sm mx-auto">
             <Button variant="cta" size="lg" className="w-full">
               Get Help From a Verified Expert
             </Button>

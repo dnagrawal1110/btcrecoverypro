@@ -96,7 +96,7 @@ const HeroSection = () => {
           <p className="text-sm text-muted-foreground mb-2">
             Worth $150/hour – <span className="text-primary font-bold">FREE</span>
           </p>
-          <a href="https://forms.google.com/YOUR_FORM_ID" target="_blank" rel="noopener noreferrer" className="w-full max-w-sm">
+          <a href="https://forms.gle/UfjdyC4F53u6Yx5V8" target="_blank" rel="noopener noreferrer" className="w-full max-w-sm">
             <Button variant="cta" size="xl" className="w-full animate-bounce-subtle">
               Get a Free Recovery Assessment Now
             </Button>
