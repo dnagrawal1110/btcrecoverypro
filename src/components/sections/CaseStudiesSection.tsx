@@ -12,38 +12,38 @@ import networkTransfer from "@/assets/network-transfer.jpg";
 const caseStudies = [
   {
     icon: Lock,
-    amount: "$82,000",
-    description: "Recovered from a reset Ledger wallet",
-    statement: "Client accidentally reset their Ledger device. We reconstructed the seed using partial backup data.",
+    amount: "$80,000",
+    description: "Ledger Wallet S2 Hardware Recovery",
+    statement: "80,000$ worth XRP recovered from Ledger hardware wallet with missing seed phrase.",
     image: hardwareWallet
   },
   {
+    icon: AlertTriangle,
+    amount: "$10,000",
+    description: "Wrong Transaction Recovery",
+    statement: "10,000$ worth altcoins recovered from a wrong transaction sent to incorrect address.",
+    image: networkTransfer
+  },
+  {
     icon: Wallet,
-    amount: "$34,000",
-    description: "Restored from a frozen Binance account",
-    statement: "Account frozen due to suspicious activity. We worked with legal team to verify ownership and restore access.",
+    amount: "BTC Recovered",
+    description: "Blockchain.com Password Recovery",
+    statement: "Blockchain.com wallet password recovered and Bitcoin restored through the JSON file backup.",
     image: exchangeRecovery
   },
   {
     icon: TrendingUp,
-    amount: "$58,000",
-    description: "Seed phrase reconstructed using partial memory",
-    statement: "Client remembered 20 of 24 words. Our forensic tools identified the missing words in 48 hours.",
+    amount: "12.47 BTC",
+    description: "2016 Blockchain.com Wallet",
+    statement: "Main password recovered for Blockchain.com wallet containing 12.47 BTC from 2016.",
     image: seedRecovery
   },
   {
-    icon: AlertTriangle,
-    amount: "$125,000",
-    description: "Scam funds traced and legally pursued",
-    statement: "Investment scam victim. We traced funds across 12 wallets and provided evidence for legal action.",
-    image: scamTracing
-  },
-  {
     icon: Wallet,
-    amount: "$47,000",
-    description: "Wrong network transfer recovered",
-    statement: "ETH sent to BSC address. We extracted private keys and recovered funds from the alternate chain.",
-    image: networkTransfer
+    amount: "0.54 BTC",
+    description: "SafePal Wallet 2016 Recovery",
+    statement: "0.54 BTC recovered from SafePal wallet dating back to 2016.",
+    image: scamTracing
   }
 ];
 
@@ -87,8 +87,8 @@ const CaseStudiesSection = () => {
             ref={sliderRef}
             className="relative rounded-2xl overflow-hidden border-2 border-primary/30 bg-card"
           >
-            {/* Main Image */}
-            <div className="aspect-[4/3] relative">
+          {/* Main Image - 9:16 aspect ratio */}
+            <div className="aspect-[9/16] relative">
               <img
                 src={caseStudies[currentIndex].image}
                 alt={caseStudies[currentIndex].description}

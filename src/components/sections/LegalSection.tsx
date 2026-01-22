@@ -58,9 +58,11 @@ const LegalSection = () => {
 
         {/* CTA */}
         <div className="flex justify-center">
-          <Button variant="cta" size="lg" className="w-full max-w-sm">
-            Proceed With Secure Assessment
-          </Button>
+          <a href="https://forms.gle/UfjdyC4F53u6Yx5V8" target="_blank" rel="noopener noreferrer" className="w-full max-w-sm">
+            <Button variant="cta" size="lg" className="w-full">
+              Proceed With Secure Assessment
+            </Button>
+          </a>
         </div>
       </div>
     </section>
