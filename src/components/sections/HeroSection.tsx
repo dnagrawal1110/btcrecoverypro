@@ -1,7 +1,8 @@
-import { CheckCircle, Play } from "lucide-react";
+import { CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-crypto.jpg";
 import logoImage from "@/assets/logo.png";
+import gopalHeroImage from "@/assets/gopal-hero.png";
 
 const HeroSection = () => {
   return (
@@ -48,21 +49,14 @@ const HeroSection = () => {
           </p>
         </div>
 
-        {/* Video Section - Moved below subheading */}
+        {/* Gopal Hero Image */}
         <div className="max-w-md mx-auto mb-10">
-          <div className="relative rounded-2xl overflow-hidden border-2 border-primary/30 bg-card">
-            {/* Video Placeholder - Replace with actual video embed */}
-            <div className="aspect-video bg-gradient-to-br from-secondary to-card flex items-center justify-center relative">
-              <div className="absolute inset-0 bg-[url('/placeholder.svg')] bg-cover bg-center opacity-20" />
-              <div className="relative z-10 flex flex-col items-center gap-4">
-                <div className="w-16 h-16 rounded-full bg-primary/20 border-2 border-primary flex items-center justify-center cursor-pointer hover:bg-primary/30 transition-colors">
-                  <Play className="w-8 h-8 text-primary fill-primary" />
-                </div>
-                <p className="text-foreground font-medium text-center px-4">
-                  Watch: Gopal Introduces Recovery Services
-                </p>
-              </div>
-            </div>
+          <div className="relative rounded-2xl overflow-hidden">
+            <img 
+              src={gopalHeroImage} 
+              alt="Gopal Sharma - Crypto Recovery Specialist" 
+              className="w-full h-auto object-cover"
+            />
           </div>
           <p className="text-center text-sm text-muted-foreground mt-3">
             See how we've helped 100+ clients recover their crypto
