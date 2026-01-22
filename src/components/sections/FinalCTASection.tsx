@@ -29,7 +29,7 @@ const FinalCTASection = () => {
           </p>
 
           {/* Primary CTA */}
-          <a href="https://forms.google.com/YOUR_FORM_ID" target="_blank" rel="noopener noreferrer" className="block w-full max-w-sm mx-auto mb-4">
+          <a href="https://forms.gle/UfjdyC4F53u6Yx5V8" target="_blank" rel="noopener noreferrer" className="block w-full max-w-sm mx-auto mb-4">
             <Button variant="cta" size="xl" className="w-full">
               Get a Free Recovery Assessment Now
             </Button>
