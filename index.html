@@ -34,13 +34,14 @@
     fbq('init', '1257931822918179');
     fbq('track', 'PageView');
   </script>
-  <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1257931822918179&ev=PageView&noscript=1"
-  /></noscript>
   <!-- End Meta Pixel Code -->
 </head>
 
   <body>
+    <!-- Meta Pixel noscript fallback -->
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1257931822918179&ev=PageView&noscript=1"
+    /></noscript>
     <link rel="icon" href="/favicon.png" type="image/png">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
